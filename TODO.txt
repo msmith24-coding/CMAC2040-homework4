@@ -1,0 +1,18 @@
+Required Features:
+    [X] Implement CardT
+    [X] Implement ArrayT
+    [X] Assign a deck of cards with a generic type.
+    [ ] *Implement Array2T
+        [X] Add formatted output.
+        [ ] Add a hidden array ( cards that are covered. )
+        [ ] Add a data array ( holds the actual data. )
+    [ ] Test Games
+        [ ] StringGame
+        [ ] IntGame
+        [ ] AbilityGame
+
+Optional Features:
+    [X] ArrayT shuffle method.
+    [X] ArrayT shuffle method with depth.
+    [ ] Overloading insertion stream ( >> ) operator.
+    [ ] Overloading comparison ( == ) operator.
