@@ -4,8 +4,6 @@ CXXFLAGS = -g -O2 -Wall -Wextra -Wpedantic -Werror --std=c++23 -Wnon-virtual-dto
 
 all: ${OBJS}
 
-IntGame:
-
 clean:
 	rm -f ${OBJS} *.o
 

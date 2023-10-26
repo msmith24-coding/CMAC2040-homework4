@@ -7,13 +7,13 @@
 #include <cinttypes>
 
 const unsigned int TEST_PLAYERS = 2;
-const unsigned int MAX_CARDS = 6;
-const unsigned int MAX_ROWS = 3;
+const unsigned int MAX_CARDS = 8;
+const unsigned int MAX_ROWS = 4;
 const unsigned int MAX_COLS = 2;
 
 const bool DEBUG = false;
 
-const int cards[] = { 1, 1, 4, 4, 6, 6 };  
+const int cards[] = { 1, 1, 4, 4, 6, 6, 8, 8 };  
 
 int main()
 {
