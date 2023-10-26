@@ -14,4 +14,4 @@ Required Features:
 Optional Features:
     [X] ArrayT shuffle method.
     [X] ArrayT shuffle method with depth.
-    [ ] Improved interface.
+    [ ] Improved Interface.
