@@ -8,7 +8,7 @@
 #include <string>
 #include <cinttypes>
 
-const unsigned int TEST_PLAYERS = 2;
+const unsigned int MAX_PLAYERS = 2;
 const unsigned int MAX_CARDS = 8;
 const unsigned int MAX_ROWS = 4;
 const unsigned int MAX_COLS = 2;
@@ -25,7 +25,7 @@ int main()
         deck.pushBack(CardT<AbilityT>(cards[i]));
     }
 
-    ConcentrationT<CardT<AbilityT>> game(MAX_ROWS, MAX_COLS, TEST_PLAYERS, deck);
+    ConcentrationT<CardT<AbilityT>> game(MAX_ROWS, MAX_COLS, MAX_PLAYERS, deck);
 
     game.play();
     game.report();
